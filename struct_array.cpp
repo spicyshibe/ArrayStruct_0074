@@ -3,7 +3,7 @@ using namespace std;
 
 struct Mahasiswa
 {
-    strung nama;
+    string nama;
     string nim; 
     string alamat;
 
@@ -15,6 +15,14 @@ int main()
     Mahasiswa mhs[4];
     for (int i = 0; i < 4; i++)
     {
-        
+        cout << "Mahasiswa ke-" << i + 1 << endl;
+        cout << "Masukkan nim = ";
+        cin >> mhs[i].nim;
+        cout << "Masukkan nama = ";
+        cin >> mhs[i].nama;
+        cout << "masukkan alamat = ";
+        cin >> mhs[i].alamat;
     }
+
+
 }
