@@ -22,7 +22,7 @@ int main()
     Mahasiswa mhs[2];
     for (int i = 0; i < 2; i++)
     {
-        cout << "mahasiswa ke- " i + 1 endl;
+        cout << "mahasiswa ke- " << i + 1 << endl;
         cout << "masukkan nim = ";
         cin >> mhs[i].nim;
         cout << "Masukkan Nama = ";
@@ -44,7 +44,7 @@ int main()
         cout << "Nama = " << mhs[i].nama << endl;
         cout << "Kota = " << mhs[i].alamat.kota << endl;
         cout << "Provinsi = " << mhs[i].alamat.provinsi << endl;
-        
+
     }
     
 }
