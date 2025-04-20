@@ -9,3 +9,12 @@ struct Mahasiswa
 
 };
 
+int main()
+{
+    //membuat object struct dalam array
+    Mahasiswa mhs[4];
+    for (int i = 0; i < 4; i++)
+    {
+        
+    }
+}
